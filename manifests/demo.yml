@@ -11,7 +11,7 @@ data:
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: '${parameters["deploymentName"]}'
+  name: '${templateVariables.appName}'
   namespace: default
   labels:
     source: demo
