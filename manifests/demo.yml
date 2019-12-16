@@ -19,7 +19,7 @@ metadata:
     app: spinnaker
     test: foo
 spec:
-  replicas: 4
+  replicas: 5
   selector:
     matchLabels:
       source: demo
